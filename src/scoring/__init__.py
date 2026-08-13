@@ -1,5 +1,12 @@
 """
                         __init__.py
 
-                        Part of Portfolio Analytics Platform.
+                        Part of Credit Scoring Platform.
                         """
+from .credit_score import CreditScoreCalculator
+from .risk_grade import RiskGradeCalculator
+
+__all__ = [
+    "CreditScoreCalculator",
+    "RiskGradeCalculator",
+]
